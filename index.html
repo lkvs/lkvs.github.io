@@ -105,19 +105,80 @@
                 <a href="//vk.com/lakv1s" class="btn btn-lg btn-secondary fw-bold">VK</a>
                 <a href="//instagram.com/danil.lakvisov/" class="btn btn-lg btn-secondary fw-bold">INST</a>
                 <a href="//faceit.com/ru/players/LuvKiss" class="btn btn-lg btn-secondary fw-bold">FACEIT</a>
-
+                
             </p>
         </main>
 
-        <footer class="mt-auto text-white-50"></footer>
+        <footer class="mt-auto text-white-70">
+            <div class="position-absolute top-50 start-0 translate-middle-y" id="app"></div> 
+        </footer>
 
-    </div>
+    </div> 
+
+
+
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+            initialTracks: [{
+                metaData: {
+                    artist: "SODA LUV",
+                    title: "DTF"
+                },
+                url: "SODA LUV - DTF.mp3",
+                duration: 223
+            }, {
+                metaData: {
+                    artist: "Мария Чайковская",
+                    title: "Целуй меня"
+                },
+                url: "Мария Чайковская - Целуй меня (Remix).mp3",
+                duration: 223
+            }, {
+                metaData: {
+                    artist: "Misha Marlon",
+                    title: "дофамин"
+                },
+                url: "Misha Marlon - дофамин.mp3",
+                duration: 223
+            }, {
+                metaData: {
+                    artist: "LIL KRYSTALLL feat. Лоя",
+                    title: "Я БУДУ"
+                },
+                url: "LIL KRYSTALLL feat. Лоя (5sta Family) - Я БУДУ.mp3",
+                duration: 223
+            }, {
+                metaData: {
+                    artist: "Тату",
+                    title: "Я схожу с ума"
+                },
+                url: "sorry - Я схожу с ума (Hyperpop remix by SORRY).mp3",
+                duration: 223
+            }, {
+                metaData: {
+                    artist: "Post Malone feat. 21 Savage",
+                    title: "rockstar"
+                },
+                url: "Post Malone feat. 21 Savage - rockstar.mp3",
+                duration: 223
+            }, {
+                metaData: {
+                    artist: "iluwa",
+                    title: "snoopdog"
+                },
+                url: "https://ttqd.ru/assets/ilyxa.mp3",
+                duration: 223
+            }],
+        }).renderWhenReady(document.getElementById('app'));
+    </script>
 
 
 
 </body>
 
-</html>
+</html> -->
 
 <!-- <!DOCTYPE html>
 <html lang="en">
